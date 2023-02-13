@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Welcome to vite-react-seo-demo 👋
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Version](https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
+[![Twitter: jellydn](https://img.shields.io/twitter/follow/jellydn.svg?style=social)](https://twitter.com/jellydn)
 
-## Available Scripts
+> Simple React SEO Demo
 
-In the project directory, you can run:
+[![Implement SEO with React](https://img.youtube.com/vi/yVw7ryEqiuI/0.jpg)](https://www.youtube.com/watch?v=yVw7ryEqiuI)
 
-### `npm start`
+### 🏠 [Homepage](https://react-seo-demo-dunghd.vercel.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### ✨ [Demo](https://react-seo-demo-dunghd.vercel.app/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Install
 
-### `npm test`
+```sh
+yarn install
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Build with
 
-### `npm run build`
+- https://vitejs.dev/ - Next Generation Frontend Tooling
+- https://github.com/stereobooster/react-snap - Pre-renders a web app into static HTML. Uses Headless Chrome to crawl all available links starting from the root.
+- https://reach.tech/router/ - Reach Router is a small, simple router for React
+- https://github.com/nfl/react-helmet - This reusable React component will manage all of your changes to the document head.
+- https://github.com/oxalorg/sakura - 🌸 a minimal css framework/theme.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```sh
+yarn dev
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Deploy and testing with Facebook Sharing Debugger
 
-### `npm run eject`
+### Deploy to vercel
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```sh
+yarn build
+vercel dist
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Debugging with Facebook Sharing Debugger
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Get the deployment link from vercel and test, e.g: https://developers.facebook.com/tools/debug/?q=https%3A%2F%2Freact-seo-demo-dunghd.vercel.app%2F
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![screenshot.png](./screenshot.png)
 
-## Learn More
+## Author
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+👤 **Dung Huynh (dunghd.it@gmail.com)**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Website: https://productsway.com/
+- Twitter: [@jellydn](https://twitter.com/jellydn)
+- Github: [@jellydn](https://github.com/jellydn)
 
-### Code Splitting
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Give a ⭐️ if this project helped you!
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)..
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_

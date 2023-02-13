@@ -1,9 +1,12 @@
-import logo from "./logo.svg";
-import "./App.css";
-import { useState } from "react";
+import React, { useState } from "react";
 import { Helmet } from "react-helmet";
-import { Router } from "@reach/router";
-function Counter(props) {
+import { Router, RouteComponentProps, Link } from "@reach/router";
+
+import "normalize.css";
+import "sakura.css";
+import "./App.css";
+
+function Counter(props: RouteComponentProps) {
   const [count, setCount] = useState(0);
 
   return (
@@ -28,13 +31,13 @@ function Counter(props) {
           </button>
         </p>
         <p>Simple counter</p>
-        <a href="/">Back to homepage</a>
+        <Link to="/">Back to homepage</Link>
       </header>
     </div>
   );
 }
 
-function Home(props) {
+function Home(props: RouteComponentProps) {
   return (
     <div className="App">
       <Helmet>
@@ -48,34 +51,19 @@ function Home(props) {
       </Helmet>
       <h3>Simple React SEO Demo</h3>
       <header className="App-header">
-        <a href="/counter">Go to counter</a>
+        <Link to="/counter">Go to counter</Link>
       </header>
     </div>
   );
 }
+
 function App() {
   return (
-    <div className="App">
-      <Router>
-        <Home path="/" />
-        <Counter path="counter" />
-      </Router>
-    </div>
+    <Router>
+      <Home path="/" />
+      <Counter path="counter" />
+    </Router>
   );
 }
 
 export default App;
-// <header className="App-header">
-//   <img src={logo} className="App-logo" alt="logo" />
-//   <p>
-//     Edit <code>src/App.js</code> and save to reload.
-//   </p>
-//   <a
-//     className="App-link"
-//     href="https://reactjs.org"
-//     target="_blank"
-//     rel="noopener noreferrer"
-//   >
-//     Learn React
-//   </a>
-// </header>;
